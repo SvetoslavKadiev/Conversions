@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImplicitConversion
 {
-    class Digit
+    public class Digit
     {
         public Digit(double d)
         {
