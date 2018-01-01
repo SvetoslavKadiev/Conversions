@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitConversion", "ImplicitConversion\ImplicitConversion.csproj", "{2F5D62ED-9FCF-40EF-A42F-3DADE61AEF3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitConversion", "ExplicitConversion\ExplicitConversion.csproj", "{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2F5D62ED-9FCF-40EF-A42F-3DADE61AEF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F5D62ED-9FCF-40EF-A42F-3DADE61AEF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F5D62ED-9FCF-40EF-A42F-3DADE61AEF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
