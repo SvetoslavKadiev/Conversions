@@ -12,15 +12,20 @@ namespace ImplicitConversion
     {
         static void Main(string[] args)
         {
-            Digit dig = new Digit(7);
+            Digit dig = new Digit(7, "svetlio");
+            WriteLine(dig.ToString());
 
             //This call invokes the implicit "double" operator
             double num = dig;
+            string key = dig;
 
             //This call invokes the implicit "Digit" operator
             Digit dig2 = 12;
+            WriteLine($"dig2 \t {dig2}");
 
-            WriteLine("num = {0} dig2 = {1}", num, dig2.val);
+            Digit key2 = "jeni";
+            WriteLine($"key2 \t {key2}");
+
             ReadLine();
         }
     }
