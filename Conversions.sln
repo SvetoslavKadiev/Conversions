@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitConversion", "Impli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitConversion", "ExplicitConversion\ExplicitConversion.csproj", "{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverload", "OperatorOverload\OperatorOverload.csproj", "{5EC36BB9-1C63-4E04-9C0F-04738F5E6BDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49AD8F1-7B85-454C-ACAC-8FBA42F8B351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC36BB9-1C63-4E04-9C0F-04738F5E6BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC36BB9-1C63-4E04-9C0F-04738F5E6BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC36BB9-1C63-4E04-9C0F-04738F5E6BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC36BB9-1C63-4E04-9C0F-04738F5E6BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
